@@ -4,7 +4,7 @@
 
 def fixDown(a,k,n): #自顶向下堆化，从k开始堆化
     N=n-1
-    while 2*k<=N:
+    while 2*k <= N:
         j=2*k
         if j<N and a[j]<a[j+1]: #选出左右孩子节点中更大的那个
             j+=1
